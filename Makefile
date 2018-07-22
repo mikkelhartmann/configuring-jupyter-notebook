@@ -1,0 +1,2 @@
+install_nbextensions:
+	sh install_nbextensions.sh
