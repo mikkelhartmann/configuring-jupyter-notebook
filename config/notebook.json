@@ -1,0 +1,37 @@
+{
+  "load_extensions": {
+    "comment-uncomment/main": false,
+    "collapsible_headings/main": false,
+    "toc2/main": true,
+    "calico-spell-check": true,
+    "spellchecker/main": true,
+    "nbextensions_configurator/config_menu/main": true,
+    "contrib_nbextensions_help_item/main": true,
+    ".": true,
+    "code_prettify/autopep8": true,
+    "zenmode/main": false,
+    "execute_time/ExecuteTime": true,
+    "highlight_selected_word/main": true,
+    "hinterland/hinterland": true,
+    "codefolding/main": false,
+    "keyboard_shortcut_editor/main": true,
+    "splitcell/splitcell": true
+  },
+  "Notebook": {
+    "Toolbar": true,
+    "Header": false
+  },
+  "autopep8": {
+    "hotkeys": {
+      "process_selected": "alt-ctrl-a",
+      "process_all": "alt-ctrl-shift-a"
+    }
+  },
+  "toc2": {
+    "toc_cell": true,
+    "threshold": "2"
+  },
+  "hinterland": {
+    "exclude_regexp": ":\\d"
+  }
+}

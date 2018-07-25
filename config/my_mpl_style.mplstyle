@@ -1,18 +1,21 @@
 savefig.dpi : 200
 
-patch.linewidth: 0.5
-patch.facecolor: 348ABD  # blue
-patch.edgecolor: EEEEEE
-patch.antialiased: True
-
 figure.autolayout : False
 figure.figsize : 7, 4
+figure.facecolor : w 
+figure.edgecolor : w 
+
+patch.facecolor        : C0
+patch.edgecolor        : k
+patch.antialiased      : True
 
 text.color : 657b83
 
 axes.titlesize : 14
 axes.labelsize : 12
-axes.labelcolor : 657b83
+axes.facecolor : 657b83
+axes.spines.top : False
+axes.spines.right : False
 
 xtick.labelsize : 12
 ytick.labelsize : 12
