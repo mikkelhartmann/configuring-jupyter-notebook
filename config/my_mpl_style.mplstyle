@@ -1,47 +1,32 @@
-savefig.dpi : 200
+patch.linewidth: 0.5
+patch.facecolor: 348ABD  # blue
+patch.edgecolor: EEEEEE
+patch.antialiased: True
 
-figure.autolayout : False
+font.size: 10.0
+
+axes.facecolor: white
+axes.edgecolor: white
+axes.linewidth: 1
+axes.grid: False
+axes.titlesize: x-large
+axes.labelsize: large
+axes.labelcolor: 555555
+axes.axisbelow: True      
+
+axes.prop_cycle: cycler('color', ['92C6FF', '97F0AA', 'FF9F9A', 'D0BBFF', 'FFFEA3', 'B0E0E6'])
+
+xtick.color: 555555
+xtick.direction: out
+
+ytick.color: 555555
+ytick.direction: out
+
+grid.color: 555555
+grid.linestyle: -    
+
+figure.facecolor: white
+figure.edgecolor: 0.50
 figure.figsize : 7, 4
-figure.facecolor : w 
-figure.edgecolor : w 
 
-patch.facecolor        : C0
-patch.edgecolor        : k
-patch.antialiased      : True
-
-text.color : 657b83
-
-axes.titlesize : 14
-axes.labelsize : 12
-axes.facecolor : 657b83
-axes.spines.top : False
-axes.spines.right : False
-
-xtick.labelsize : 12
-ytick.labelsize : 12
-
-xtick.color         : 657b83
-xtick.direction     : out
-
-ytick.color         : 657b83
-ytick.direction     : out
-
-
-font.size : 16
-
-lines.linewidth : 2.0
-lines.markersize : 8
-
-legend.fontsize : 14
-legend.fancybox: True
-
-text.usetex : False
-
-axes.prop_cycle: cycler('color', ['E24A33', '348ABD', '988ED5', '777777', 'FBC15E', '8EBA42', 'FFB5B8'])
-                   # E24A33 : red
-                   # 348ABD : blue
-                   # 988ED5 : purple
-                   # 777777 : gray
-                   # FBC15E : yellow
-                   # 8EBA42 : green
-                   # FFB5B8 : pink
+savefig.dpi : 200
