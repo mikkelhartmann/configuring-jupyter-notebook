@@ -13,9 +13,7 @@
     "execute_time/ExecuteTime": true,
     "highlight_selected_word/main": true,
     "hinterland/hinterland": true,
-    "codefolding/main": false,
-    "keyboard_shortcut_editor/main": true,
-    "splitcell/splitcell": true
+    "scroll_down/main": true
   },
   "Notebook": {
     "Toolbar": true,
