@@ -14,6 +14,16 @@ div.output_area .rendered_html img {
   margin-right: auto;
 }
 
+div#margin-figure {
+  position: absolute;
+  transform: translate(680px, -100px);
+  padding-left: 1em;
+}
+
+div#margin-figure .output_prompt {
+  opacity: 0;
+}
+
 h1 {
   text-align: left;
 }
@@ -32,7 +42,7 @@ canvas {
 }
 
 .container {
-  width: 50% !important;
+  width: 40%;
   min-width: 800px;
 }
 
@@ -41,9 +51,9 @@ div.cell.selected {
 }
 
 div.text_cell_render {
-  width: 70%;
+  width: 80%;
   text-align: justify;
-  margin: 0 auto;
+  margin-left: 5%;
 }
 
 div.output_scroll {
